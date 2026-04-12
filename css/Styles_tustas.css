@@ -714,3 +714,73 @@
     max-width: 100%;
     max-height: 100%;
  }
+
+ /* --- SCROLL ANIMATIONS --- */
+ .hidden-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, visibility;
+ }
+
+ .show-scroll {
+    opacity: 1;
+    transform: translateY(0);
+ }
+
+ /* Delay para ítems en grilla */
+ .skills-grid .skill-item:nth-child(1) { transition-delay: 0.1s; }
+ .skills-grid .skill-item:nth-child(2) { transition-delay: 0.2s; }
+ .skills-grid .skill-item:nth-child(3) { transition-delay: 0.3s; }
+ .skills-grid .skill-item:nth-child(4) { transition-delay: 0.4s; }
+ .skills-grid .skill-item:nth-child(5) { transition-delay: 0.5s; }
+
+ .projects-grid .project-item:nth-child(1) { transition-delay: 0.1s; }
+ .projects-grid .project-item:nth-child(2) { transition-delay: 0.2s; }
+ .projects-grid .project-item:nth-child(3) { transition-delay: 0.3s; }
+
+ /* --- BOTÓN CV --- */
+ .btn-primary {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, var(--red) 0%, #ff5252 100%);
+    color: var(--text-lighter);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+ }
+
+ .btn-primary:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.6);
+    color: white;
+ }
+
+ .btn-primary i {
+    margin-right: 8px;
+ }
+
+ /* --- BADGES PARA PROYECTOS --- */
+ .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+ }
+
+ .badge {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 12px;
+    pointer-events: none;
+ }

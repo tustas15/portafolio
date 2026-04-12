@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Carlos Santiago Rosales Andrade</title>
+    <meta property="og:title" content="Portafolio de Carlos Santiago Rosales Andrade">
+    <meta property="og:description" content="Portafolio web con proyectos en Desarrollo Web.">
+    <meta property="og:image" content="https://portafolio-tustas.web.app/img/Foto%20.jpg">
+    <meta property="og:url" content="https://portafolio-tustas.web.app">
     <link rel="stylesheet" href="css/Styles_tustas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,6 +67,7 @@
                             💀 la mayor parte del tiempo trabajando en repositorios privados <br>
                             👾 un estudiante que está explorando y aprendiendo
                         </p>
+                        <a href="#" class="btn-primary" download><i class="fas fa-file-download"></i> Descargar Currículum</a>
                     </div>
                 </div>
             </div>
@@ -73,7 +78,7 @@
                 <h2 class="section-title">Habilidades</h2>
                 <div class="skills-grid">
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
                                 viewBox="0 0 256 346">
@@ -94,7 +99,7 @@
                         <span>Java</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -1 100 50">
                                 <path fill="#fff"
@@ -104,7 +109,7 @@
                         <span>PHP</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg viewBox="0 0 256 204" xmlns="http://www.w3.org/2000/svg" width="256" height="204"
                                 preserveAspectRatio="xMidYMid">
@@ -115,7 +120,7 @@
                         <span>Bootstrap</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg viewBox="0 0 122.52 122.523" width="512" height="512"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -136,7 +141,7 @@
                         <span>WordPress</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg width="83" height="80" viewBox="0 0 83 80" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -161,7 +166,7 @@
                         <span>Photoshop</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg width="83" height="80" viewBox="0 0 83 80" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +191,7 @@
                         <span>Illustrator</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <svg width="83" height="80" viewBox="0 0 83 80" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -211,14 +216,14 @@
                         <span>Premiere</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <img src="img/FPDF.png" alt="FPDF Logo">
                         </div>
                         <span>FPDF</span>
                     </div>
 
-                    <div class="skill-item">
+                    <div class="skill-item hidden-scroll">
                         <div class="skill-icon">
                             <img src="img/PHPMailer.png" alt="PHPMailer Logo">
                         </div>
@@ -232,34 +237,57 @@
             <div class="container">
                 <h2 class="section-title">Proyectos</h2>
                 <div class="projects-grid">
-                    <a href="http://sis.tacaandina.com" target="_blank" class="project-item">
-                        <img src="img/T.A.C.A. Andina.png" alt="Vista previa Proyecto 1">
+                    <a href="http://sis.tacaandina.com" target="_blank" class="project-item hidden-scroll">
+                        <img src="img/T.A.C.A. Andina.png" loading="lazy" alt="Vista previa Proyecto 1">
                         <div class="project-title">
                             <h3>T.A.C.A Andina</h3>
+                            <div class="badges">
+                                <span class="badge">PHP</span>
+                                <span class="badge">CodeIgniter 4</span>
+                                <span class="badge">MySQL</span>
+                            </div>
                         </div>
                     </a>
-                    <a href="https://sistema.clublooneytunes.com/" target="_blank" class="project-item">
-                        <img src="img/Looney Toons.png" alt="Vista previa Proyecto 2">
+                    <a href="https://sistema.clublooneytunes.com/" target="_blank" class="project-item hidden-scroll">
+                        <img src="img/Looney Toons.png" loading="lazy" alt="Vista previa Proyecto 2">
                         <div class="project-title">
                             <h3>Looney Tunes Basketball Club</h3>
+                            <div class="badges">
+                                <span class="badge">PHP</span>
+                                <span class="badge">CodeIgniter 4</span>
+                                <span class="badge">MySQL</span>
+                            </div>
                         </div>
                     </a>
-                    <a href="https://alimentosmontana.com/andro-sis/public/index.php" target="_blank" class="project-item">
-                        <img src="img/La esperanza.png" alt="Vista previa Proyecto 3">
+                    <a href="https://alimentosmontana.com/andro-sis/public/index.php" target="_blank" class="project-item hidden-scroll">
+                        <img src="img/La esperanza.png" loading="lazy" alt="Vista previa Proyecto 3">
                         <div class="project-title">
                             <h3>Alimentos Montana</h3>
+                            <div class="badges">
+                                <span class="badge">PHP</span>
+                                <span class="badge">CodeIgniter 4</span>
+                                <span class="badge">MySQL</span>
+                            </div>
                         </div>
                     </a>
-                    <a href="http://supertronica.com" target="_blank" class="project-item">
-                        <img src="img/Supertronica.png" alt="Vista previa Proyecto 3">
+                    <a href="http://supertronica.com" target="_blank" class="project-item hidden-scroll">
+                        <img src="img/Supertronica.png" loading="lazy" alt="Vista previa Proyecto 3">
                         <div class="project-title">
                             <h3>Supertronica</h3>
+                            <div class="badges">
+                                <span class="badge">WordPress</span>
+                            </div>
                         </div>
                     </a>
-                    <a href="https://tiempomoda.com.ec/" target="_blank" class="project-item">
-                        <img src="img/tiempomoda.png" alt="Vista previa Proyecto E-commerce" onerror="this.src='https://via.placeholder.com/400x300?text=Tiempo+Moda'">
+                    <a href="https://tiempomoda.com.ec/" target="_blank" class="project-item hidden-scroll">
+                        <img src="img/tiempomoda.png" loading="lazy" alt="Vista previa Proyecto E-commerce" onerror="this.src='https://via.placeholder.com/400x300?text=Tiempo+Moda'">
                         <div class="project-title">
                             <h3>Tiempo Moda (E-Commerce)</h3>
+                            <div class="badges">
+                                <span class="badge">Astro</span>
+                                <span class="badge">React</span>
+                                <span class="badge">Node.js</span>
+                            </div>
                         </div>
                     </a>
                 </div>
