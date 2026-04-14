@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./css/input.css -o ./css/Styles_tustas.css --watch",
+    "build:css": "npx @tailwindcss/cli -i ./css/input.css -o ./css/Styles_tustas.css --minify"
+  },
   "dependencies": {
     "firebase": "^11.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.9",
+    "tailwindcss": "^4.2.2"
   }
 }
