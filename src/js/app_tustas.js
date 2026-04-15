@@ -6,9 +6,9 @@
 
         // IMPORTANTE: Reemplaza estos valores con los tuyos de EmailJS
         const EMAILJS_CONFIG = {
-            serviceId: 'TU_SERVICE_ID',      // Reemplaza con tu Service ID
-            templateId: 'TU_TEMPLATE_ID',    // Reemplaza con tu Template ID
-            publicKey: 'TU_PUBLIC_KEY'       // Reemplaza con tu Public Key
+            serviceId: 'service_qnshzhb',
+            templateId: 'template_u968ytf',
+            publicKey: 'hiIzVHIhd8jLwfXzO'
         };
 
         document.addEventListener('DOMContentLoaded', function () {
@@ -153,7 +153,7 @@
                         from_name: document.getElementById('name').value.trim(),
                         from_email: document.getElementById('email').value.trim(),
                         message: document.getElementById('message').value.trim(),
-                        to_email: 'alvarezfranly@gmail.com'
+                        to_email: 'santyrosales2003@gmail.com'
                     };
 
                     // Enviar email usando EmailJS
